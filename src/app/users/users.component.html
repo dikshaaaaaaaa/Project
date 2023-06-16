@@ -1,0 +1,11 @@
+<form [formGroup]="signform" (ngSubmit)="save()" >
+<label>First Name</label>
+<input type="text" formControlName = "fName">
+<label> Last Name</label>
+<input type="text" formControlName = "LName">
+<label>email</label>
+<input type="text" formControlName = "eName">
+<label>password</label>
+<input type="text" formControlName = "pName">
+<button (click)="canExit()"> submit </button>
+</form>
